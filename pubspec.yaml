@@ -1,0 +1,25 @@
+name: loja_virtual_mind
+description: A new Flutter project for Loja Mind.
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.0 # Para persistir dados do usuário localmente (como localStorage)
+  provider: ^6.0.5 # Para gerenciamento de estado (carrinho, usuário logado)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
