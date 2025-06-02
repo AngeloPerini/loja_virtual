@@ -19,16 +19,16 @@ A estrutura do projeto é a seguinte:
 
 loja_virtual_mind/
 ├── assets/
-│   └── images/      # <--- Pasta para suas imagens locais (se você adicionar)
+│   └── images/     
 ├── css/
 │   ├── login-cadastro.css
 │   └── style.css
-├── pages/           # Pasta para suas páginas HTML principais
+├── pages/          
 │   ├── cadastro.html
 │   ├── index.html
 │   ├── login.html
 │   └── perfil.html
-├── README.md        # Este arquivo
+├── README.md       
 └── (outros arquivos de configuração do Flutter, se houver, como pubspec.yaml)
 
 ## Como Visualizar o Projeto
