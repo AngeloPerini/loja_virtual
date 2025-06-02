@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:loja_virtual_mind/services/auth_service.dart';
 import 'package:loja_virtual_mind/utils/app_constants.dart';
-// Importe suas páginas (verifique os caminhos reais do seu projeto)
 import 'package:loja_virtual_mind/pages/login_page.dart';
 import 'package:loja_virtual_mind/pages/cadastro_page.dart';
 import 'package:loja_virtual_mind/pages/home_page.dart';

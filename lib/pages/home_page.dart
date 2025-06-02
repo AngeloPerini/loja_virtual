@@ -152,9 +152,9 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           Text('Fale conosco através dos canais abaixo:', style: TextStyle(fontSize: 16)),
           SizedBox(height: 8),
           Text('• Email: suporte@lojamind.com', style: TextStyle(fontSize: 16)),
-          Text('• Telefone: (11) 99999-9999', style: TextStyle(fontSize: 16)),
-          Text('• WhatsApp: (11) 98888-8888', style: TextStyle(fontSize: 16)),
-          Text('• Endereço: Rua Exemplo, 123 - São Paulo, SP', style: TextStyle(fontSize: 16)),
+          Text('• Telefone: (79) 99999-9999', style: TextStyle(fontSize: 16)),
+          Text('• WhatsApp: (79) 98888-8888', style: TextStyle(fontSize: 16)),
+          Text('• Av. Murilo Dantas, 300 - Farolândia, Aracaju - SE, 49032-490', style: TextStyle(fontSize: 16)),
         ],
       ),
     );

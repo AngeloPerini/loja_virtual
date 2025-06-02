@@ -21,5 +21,20 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #   - assets/images/
+  assets: 
+    - assets/images/blusão_mind.jpg
+    - assets/images/calca_jeans_escura.jpg
+    - assets/images/relogio_esportivo.jpg
+    - assets/images/vestido_vermelho.jpg
+    - assets/images/camiseta_stret_mind.jpg
+    - assets/images/blusa_floral.jpg
+    - assets/images/saia_streat.jpg
+    - assets/images/bolsa_couro.jpg
+    - assets/images/tenis_running.jpg
+    - assets/images/relogio_digital.jpg
+    - assets/images/bone_bulls.jpg
+    - assets/images/blusa_unissex.jpg
+
+
+
+  

@@ -5,25 +5,25 @@ class ProductService extends ChangeNotifier {
   final List<Product> _products = [
     Product(
       id: 'm1',
-      name: 'Camisa Social Azul',
+      name: 'Blusão Mind',
       originalPrice: 120.00,
       discountedPrice: 90.00,
       category: 'Masculino',
-      imageUrl: 'assets/images/camisa_social_azul.jpg', // Adicione imagens reais
+      imageUrl: 'assets/images/blusão_mind.jpg', 
     ),
     Product(
       id: 'm2',
       name: 'Calça Jeans Escura',
       originalPrice: 150.00,
       category: 'Masculino',
-      imageUrl: 'assets/images/calca_jeans_escura.jpg',
+      imageUrl: 'assets/images/calca_jeans_escura.jpg', 
     ),
     Product(
       id: 'm3',
-      name: 'Jaqueta de Couro',
+      name: 'Camiseta Street Mind',
       originalPrice: 300.00,
       category: 'Masculino',
-      imageUrl: 'assets/images/jaqueta_couro.jpg',
+      imageUrl: 'assets/images/camiseta_stret_mind.jpg',
     ),
     Product(
       id: 'm4',
@@ -49,10 +49,10 @@ class ProductService extends ChangeNotifier {
     ),
     Product(
       id: 'f3',
-      name: 'Saia Plissada',
+      name: 'Saia Street',
       originalPrice: 90.00,
       category: 'Feminino',
-      imageUrl: 'assets/images/saia_plissada.jpg',
+      imageUrl: 'assets/images/saia_streat.jpg',
     ),
     Product(
       id: 'f4',
@@ -79,10 +79,10 @@ class ProductService extends ChangeNotifier {
     ),
     Product(
       id: 'o3',
-      name: 'Jaqueta Jeans',
+      name: 'Bone Bulls',
       originalPrice: 180.00,
       category: 'Ofertas',
-      imageUrl: 'assets/images/jaqueta_jeans.jpg',
+      imageUrl: 'assets/images/bone_bulls.jpg',
     ),
     Product(
       id: 'o4',
