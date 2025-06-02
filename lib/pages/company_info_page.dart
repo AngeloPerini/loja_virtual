@@ -3,7 +3,7 @@ import 'package:loja_virtual_mind/utils/app_colors.dart';
 import 'package:loja_virtual_mind/widgets/custom_app_bar.dart';
 
 class CompanyInfoPage extends StatelessWidget {
-  const CompanyInfoPage({Key? key}) : super(key: key);
+  const CompanyInfoPage({super.key});
 
   @override
   Widget build(BuildContext context) {

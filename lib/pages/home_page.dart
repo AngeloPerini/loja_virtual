@@ -2,14 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:loja_virtual_mind/services/auth_service.dart';
 import 'package:loja_virtual_mind/services/product_service.dart';
 import 'package:loja_virtual_mind/utils/app_colors.dart';
-import 'package:loja_virtual_mind/utils/app_constants.dart';
 import 'package:loja_virtual_mind/widgets/app_drawer.dart';
 import 'package:loja_virtual_mind/widgets/custom_app_bar.dart';
 import 'package:loja_virtual_mind/widgets/product_card.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();

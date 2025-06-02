@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:loja_virtual_mind/services/auth_service.dart';
-import 'package:loja_virtual_mind/utils/app_colors.dart';
 import 'package:provider/provider.dart';
 
 class CadastroPage extends StatefulWidget {
-  const CadastroPage({Key? key}) : super(key: key);
+  const CadastroPage({super.key});
 
   @override
   State<CadastroPage> createState() => _CadastroPageState();

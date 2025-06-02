@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:loja_virtual_mind/services/auth_service.dart';
 import 'package:loja_virtual_mind/utils/app_colors.dart';
-import 'package:loja_virtual_mind/utils/app_constants.dart';
 import 'package:provider/provider.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  const LoginPage({super.key});
 
   @override
   State<LoginPage> createState() => _LoginPageState();

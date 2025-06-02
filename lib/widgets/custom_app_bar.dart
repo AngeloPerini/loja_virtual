@@ -11,12 +11,12 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final bool showCartIcon;
 
   const CustomAppBar({
-    Key? key,
+    super.key,
     this.title = AppConstants.appName,
     this.showMenuIcon = false,
     this.showBackButton = false,
     this.showCartIcon = false,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
